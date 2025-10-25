@@ -1,0 +1,127 @@
+body {
+  font-family: "Inter", system-ui, -apple-system, sans-serif;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  color: #1a1a1a;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  max-width: 420px;
+  margin: 60px auto;
+  background: #fff;
+  border-radius: 18px;
+  padding: 32px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+h2 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+section {
+  margin-bottom: 32px;
+}
+
+button {
+  background: #4a90e2;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 18px;
+  color: white;
+  font-weight: 500;
+  margin: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  background: #357ab8;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(74, 144, 226, 0.3);
+}
+
+button:active {
+  transform: translateY(0);
+  box-shadow: none;
+}
+
+.statistics p {
+  margin: 6px 0;
+  font-size: 15px;
+}
+
+.notification {
+  color: #888;
+  text-align: center;
+  font-size: 15px;
+}
+
+
+.statistics-card {
+  background: #f9fafc;
+  border-radius: 14px;
+  padding: 20px 24px;
+  box-shadow: inset 0 0 0 1px #e3e6ec;
+  transition: all 0.25s ease;
+}
+
+.statistics-card:hover {
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+  transform: translateY(-2px);
+}
+
+.statistics-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid #eaecef;
+}
+
+.statistics-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-left: 4px solid transparent;
+  padding-left: 10px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #2d3436;
+  transition: all 0.2s ease;
+}
+
+.statistics-list li:hover {
+  background-color: #f3f6fa;
+  border-left-color: #4a90e2;
+}
+
+.statistics-list li span {
+  color: #555;
+}
+
+.statistics-list li strong {
+  color: #1a1a1a;
+}
+
+.statistics-summary {
+  margin-top: 16px;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.statistics-summary p {
+  display: flex;
+  justify-content: space-between;
+  margin: 4px 0;
+  color: #333;
+}
+
+.statistics-summary strong {
+  color: #4a90e2;
+}
