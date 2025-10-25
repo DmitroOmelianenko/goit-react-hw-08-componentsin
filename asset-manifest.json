@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/goit-react-hw-08-componentsin/static/css/main.da08c550.css",
+    "main.js": "/goit-react-hw-08-componentsin/static/js/main.bfbeedcd.js",
+    "index.html": "/goit-react-hw-08-componentsin/index.html",
+    "main.da08c550.css.map": "/goit-react-hw-08-componentsin/static/css/main.da08c550.css.map",
+    "main.bfbeedcd.js.map": "/goit-react-hw-08-componentsin/static/js/main.bfbeedcd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.da08c550.css",
+    "static/js/main.bfbeedcd.js"
+  ]
+}
